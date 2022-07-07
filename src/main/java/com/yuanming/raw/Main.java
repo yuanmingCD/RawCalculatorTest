@@ -80,6 +80,6 @@ public class Main {
             rawCalculator.sizeOf(testObject);
         }
         long end = System.nanoTime();
-        System.out.print("Coast ns per calculate " + (end - start) / times);
+        System.out.print("Cost ns per calculate " + (end - start) / times);
     }
 }
